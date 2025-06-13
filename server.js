@@ -13,7 +13,7 @@ const app = express()
 // Middleware
 app.use(
   cors({
-    origin: "http://localhost:5173", // Vite default port
+    origin: "https://final-project-henna-five.vercel.app", // Vite default port
     credentials: true,
   }),
 )
